@@ -63,5 +63,8 @@ def carPosition(data):  # Add 'data' as an argument
     return "OK"
 
 
-sio.connect('ws://10.31.33.62:3001', headers={'App-id': appId})
+sio.connect('ws://178.170.13.10:3001', headers={'App-id': appId})
 sio.wait()
+
+# 178.170.13.10:3000
+# 178.170.13.10:3001
